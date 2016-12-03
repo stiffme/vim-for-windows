@@ -1,4 +1,4 @@
 [submodule "vim"]
 	path = vim
-	url = https://github.com/vim/vim.git
+	url = https://github.com/stiffme/vim.git
 	ignore = dirty
