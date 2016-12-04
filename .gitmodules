@@ -1,0 +1,4 @@
+[submodule "vim"]
+	path = vim
+	url = https://github.com/stiffme/vim.git
+	branch = master

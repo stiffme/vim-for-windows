@@ -1,3 +1,7 @@
+git clean -dfx
+git pull
+git submodule update --recursive
+git submodule foreach git clean -dfx
 cd vim\src
 nmake -f Make_mvc.mak CPUNR=core2 GUI=yes OLE=yes DIRECTX=yes MBYTE=yes LUA="D:\Tools\LuaLibrary" DYNAMIC_LUA=yes LUA_VER=53 PERL="D:\Tools\Perl" DYANMIC_PERL=yes PERL_VER=524  PYTHON3="D:\Tools\Python35" DYNAMIC_PYTHON3=yes PYTHON3_VER=35 RUBY="D:\Tools\Ruby23-x64" DYNAMIC_RUBY=yes RUBY_VER=23 RUBY_API_VER_LONG=2.3.0 TCL="D:\Tools\TCL" DYMANIC_TCL=yes TCL_VER=86 TCL_VER_LONG=8.6 CSCOPE=yes NETBEANS=no SDK_INCLUDE_DIR="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include" clean 
 nmake -f Make_mvc.mak CPUNR=core2  GUI=yes OLE=yes DIRECTX=yes MBYTE=yes LUA="D:\Tools\LuaLibrary" DYNAMIC_LUA=yes LUA_VER=53 PERL="D:\Tools\Perl" DYANMIC_PERL=yes PERL_VER=524  PYTHON3="D:\Tools\Python35" DYNAMIC_PYTHON3=yes PYTHON3_VER=35 RUBY="D:\Tools\Ruby23-x64" DYNAMIC_RUBY=yes RUBY_VER=23 RUBY_API_VER_LONG=2.3.0 TCL="D:\Tools\TCL" DYMANIC_TCL=yes TCL_VER=86 TCL_VER_LONG=8.6 CSCOPE=yes NETBEANS=no SDK_INCLUDE_DIR="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include"  
