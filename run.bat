@@ -7,7 +7,7 @@ git push origin
 
 git submodule update --recursive
 git submodule foreach git clean -dfx
-git submodule foreach git pull
+git submodule foreach git pull origin/master
 cd vim
 git fetch upstream
 git checkout master
